@@ -5,6 +5,8 @@ import GameInfo   from './runtime/gameinfo'
 import Music      from './runtime/music'
 import DataBus    from './databus'
 
+// let canvas = document.getElementById("canvas");
+// 在浏览器中在创建带有id属性的DOM元素时也会创建同名的全局变量
 let ctx   = canvas.getContext('2d')
 let databus = new DataBus()
 
