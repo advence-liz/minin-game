@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "dev": "webpack-dev-server --entry ./game.h5.js  --output dist.js"
+    "dev": "webpack-dev-server --entry ./game.h5.js  --output dist.js",
+    "build":"webpack --entry ./game.h5.js  --output dist.js",
+    "dev:ssl": "webpack-dev-server --entry ./game.h5.js  --output dist.js --https  --host 10.11.6.185"
   },
   "devDependencies": {
     "webpack": "^4.30.0",
